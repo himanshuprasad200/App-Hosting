@@ -1,0 +1,40 @@
+/* src/DataFetcher.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .loading,
+  .error {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .loading {
+    color: #007bff;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  .data {
+    font-family: monospace;
+    white-space: pre-wrap;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
